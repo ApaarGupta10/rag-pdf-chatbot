@@ -1,28 +1,34 @@
-# RAG PDF Chatbot
+# 📄 RAG PDF Chatbot
 
-A Retrieval-Augmented Generation (RAG) application that allows users to upload PDF documents and ask natural language questions.
+A Retrieval-Augmented Generation (RAG) chatbot that allows users to upload PDF documents and ask natural language questions using Large Language Models.
 
-## Features
+---
 
-- Upload PDF documents
-- Semantic search with vector embeddings
-- Context-aware responses using an LLM
-- FastAPI backend
-- Streamlit frontend
-- Docker support
+## 🚀 Features
 
-## Tech Stack
+- 📄 PDF Upload
+- 🔍 Semantic Search
+- 🤖 LLM Question Answering
+- ⚡ FastAPI Backend
+- 🖥️ Streamlit Frontend
+- 🐳 Docker Support
+
+---
+
+## 🛠 Tech Stack
 
 - Python
 - FastAPI
 - LangChain
 - ChromaDB
-- Groq/OpenAI
+- Groq API
 - Streamlit
 
-## Project Structure
+---
 
-```
+## 📂 Project Structure
+
+```text
 app/
 frontend/
 tests/
@@ -30,13 +36,19 @@ data/
 chroma_db/
 ```
 
-## Roadmap
+---
+
+## 📌 Status
+
+🚧 Currently under development
+
+---
+
+## 📅 Roadmap
 
 - [ ] PDF Upload
-- [ ] Text Chunking
+- [ ] Chunking
 - [ ] Embeddings
-- [ ] Vector Database
-- [ ] RAG Pipeline
-- [ ] Chat History
-- [ ] Authentication
-- [ ] Docker Deployment
+- [ ] ChromaDB
+- [ ] Chat Interface
+- [ ] Docker
